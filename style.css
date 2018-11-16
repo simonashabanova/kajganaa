@@ -1,0 +1,141 @@
+html,body{
+    margin:0;
+    padding:4 4 0 4;
+}
+body{
+    background-color:black;
+    font-family: 'PT Sans Narrow',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container{
+    width:100%;
+    height:100%;
+}
+
+.meni{
+    border-top: 1px solid #ff5400;
+    padding-top: 10px;
+    background-color:black;
+    background-image: url('header-bg.png');
+    background-repeat: repeat;
+    height:171px;
+    width:100%;
+}
+
+
+.logo-social{
+    padding: 20 200 50 200;
+}
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+    color:white;
+}
+
+
+.social_icons{
+    width:27px;
+    height:27px;
+}
+
+#prv_link, #vtor_link, #tret_link{
+    text-decoration:none;
+    color:white;
+}
+
+
+#prv_link:hover, #vtor_link:hover, #tret_link:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+
+.main-container{
+    width:1090px;
+    height:1000px;
+    background-color:white;
+    margin:auto;
+    margin-top:-70px;
+
+}
+
+.ul-meni{
+    padding-top:5px;
+    list-style-type:none;
+}
+
+.ul-meni li{
+    display:inline;
+    margin-right:10px;
+
+}
+a{
+    text-decoration: none;
+    color:white
+
+}
+.main-menu{
+    background-color:#ff5400;
+    height:60px;
+    border-top:10px solid white;
+}
+
+.left_content{
+    width:770px;
+    float:left;
+    padding-top:10px;
+    padding-left:10px;
+
+}
+.banner-gore img{
+padding:20 10 0 10;
+}
+
+.prv_article img{
+    width:490px;
+    height:295px;
+}
+
+.vtor_article img{
+    width:260px;
+    height:295px;
+}
+
+.tret_article img{
+    width:260px;
+    height:295px;
+}
+
+.cetvrt_article img{
+    width:490px;
+    height:295px;
+}
+
+
+.right_content{
+    float:right;
+}
+.right_content img{
+    width:300px;
+    height:600px;
+}
+
+.social_follow{
+    padding-left:10px;
+    margin-top:10px;
+    background-color:#f5f5f5;
+    margin: 0 auto;
+    width:1090px;
+    background: #f5f5f5;
+    height: 28px;
+    border: 1px 0 0 1px solid #d2d2d2;
+    color: #ff5400;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
